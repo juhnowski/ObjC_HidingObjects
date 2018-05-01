@@ -26,4 +26,14 @@
 }
 
 
+- (IBAction)HideButton:(id)sender {
+    self.segmentCotrol.hidden = YES;
+    self.Label.hidden = YES;
+    
+}
+
+- (IBAction)RevealButton:(id)sender {
+    self.segmentCotrol.hidden = NO;
+    self.Label.hidden = NO;
+}
 @end

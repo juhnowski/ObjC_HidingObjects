@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentCotrol;
+@property (weak, nonatomic) IBOutlet UILabel *Label;
 
+- (IBAction)HideButton:(id)sender;
+- (IBAction)RevealButton:(id)sender;
 
 @end
 
